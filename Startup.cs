@@ -29,6 +29,7 @@ namespace BikeWorld
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            // Just added a comment
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
